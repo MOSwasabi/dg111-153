@@ -50,10 +50,16 @@ BEGIN [นับจาก 1 ถึง n]
 
     INPUT[ i = 1]
 
-  if  i <= N THAN
+    if  i <= N THAN
 
-   output [/พิมพ์ i/]
+    output [/พิมพ์ i/]
 
-   output i = i + 1
+    output i = i + 1
 
-   else End
+    else End
+
+    END IF
+
+    output [ตัวเลข]
+
+END
