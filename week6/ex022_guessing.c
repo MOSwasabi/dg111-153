@@ -19,8 +19,7 @@ int main() {
         } else if (guess > number) {
             printf("สูงไปลองใหม่.\n");
         } else {
-            printf("ยินดีด้วย คุณถา
-                ยเลข %d ได้ใน %d ครั้ง.\n", number, attempts);
+            printf("ยินดีด้วย คุณถายเลข %d ได้ใน %d ครั้ง.\n", number, attempts);
         }
     } while (guess != number);
 
